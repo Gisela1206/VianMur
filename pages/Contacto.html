@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
+    <title>VianMur Contacto</title>
+</head>
+<body>
+    <h1>VianMur Contacto</h1><br><br>
+    <header>
+        <div class="centrado">
+            <section class="menu-section">
+                <nav class="menu-simple-menu">
+                    <ul>
+                        <li> <a href="../index.html">Inicio</a></li>
+                        <li><a href="Productos.html">Productos</a></li>
+                        <li>Contacto</li>
+                        <li> <a href="Proceso.html">Proceso</a></li>
+                    </ul>
+                </nav> <br><br>
+            </section>
+        </div>
+
+    <form action="https://formspree.io/f/mjkvggrz" method="post">
+        <fieldset>
+            <legend>Deje sus datos y nos contactaremos a la brevedad</legend><br>
+            <label for="nombre">Nombre y Apellido [*] </label>
+            <input type="text" id="nombre" name="nombre" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+" title="Sólo letras y espacios" size="25" maxlength="30" required> <br><br>
+            <label for="correo">E-mail [*]</label>
+            <input type="E-mail" name="correo" id="E-mail" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,}" title="Ingrese un correo electrónico válido" required> <br><br>
+        </fieldset> <br><br>
+        <br> 
+        <fieldset>
+        <label"comentarios">Escriba su consulta</label> <br>
+        <textarea class="area.texto" name="comentarios" id="" cols="40" rows="10" placeholder="Escriba aquí su consulta (máx 500 caracteres)" ></textarea>
+        <br><br><br>
+        <input type="checkbox" name="condiciones" id="" required>
+        Acepto los términos y condiciones <br><br>
+        <input type="submit" value="Enviar Datos">
+        <input type="reset" value="Borrar">
+    </fieldset>
+  
+   
+    </form>
+         
+    </header>
+       
+</body>
+</html>
