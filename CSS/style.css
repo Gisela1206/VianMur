@@ -314,7 +314,10 @@ form {
         font-weight: bold;
         background-color: none;
     }
-
 }
 
+@media (max-width: 420px) {
+    background-size: cover;
+    background-position: center;
+}
 }
