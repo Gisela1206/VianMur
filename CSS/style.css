@@ -203,7 +203,7 @@ h3{
 
 fieldset {
     width: 1800px;
-    height: 800px;
+    height: 300px;
     margin-left: 100px;
     margin-right: auto;
     font-weight: bold;
@@ -316,8 +316,4 @@ form {
     }
 }
 
-@media (max-width: 420px) {
-    background-size: cover;
-    background-position: center;
-}
 }
