@@ -9,7 +9,7 @@
 body{
     color: hwb(270 3% 95% / 0.788);
     font-family: "Sofia Sans", sans-serif;
-    font-size: 100%;
+    font-size: 120%;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -20,7 +20,7 @@ body{
 }
 
 body{
-    background-image: url("../img/logo.jpeg");
+    background-image: url("../IMG/logo1.jpeg");
     font-family: "Sofia Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -131,7 +131,7 @@ footer nav {
         height: 50%;
         width: 70%;
         float: none;
-        margin: auto;
+        margin: 70px;
         padding: 0px;
     }
 
@@ -328,7 +328,7 @@ form {
 
 body {
     font-family: Arial, sans-serif;
-    /* max-width: 1000px; */
+    max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
     background-color: #f4f4f4;

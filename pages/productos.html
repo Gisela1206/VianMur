@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap"
+        rel="stylesheet">
+    <title>VianMur Tienda de Productos</title>
+</head>
+
+<body>
+    <h1>VianMur Productos</h1><br><br>
+    <header>
+        <section class="menu-section">
+            <nav class="menu-simple-menu">
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li>Productos</li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                </ul>
+            </nav>
+        </section>
+        <div class="centrado">
+            <div class="site-branding">
+                <h2>Tienda de Productos</h2><br><br>
+            </div>
+        </div>
+    </header>
+
+
+
+    <div id="productos">
+
+      <div class="producto" data-producto="cuenco">  
+        <a href="#">
+            <figure>
+                <img src="../img/cuenco.jpeg" alt="cuenco">
+             </figure>
+        </a>
+             <div class="tarjeta-content">
+                <h3>Cuenco</h3>
+                <p class="disenio"> Cuenco pintado a mano, de 13cm de diámetro x 12 de profundidad, ideal para
+                servir snacks o salsas para acompañar unos dips.</p><br><br>
+            <span>Importe: $5000</span>
+            <span>Stock: <span id="stock-cuenco">20</span></span>
+             <button onclick="agregarAlCarrito('cuenco', 5000, 'cuenco')">Agregar</button>
+             <button class="ver-mas-button">Ver Más</button>
+             <p class="descripcion-ampliada">Descripción ampliada: Puedes encontrarlo en colores
+                tierra, como así también en colores pastel</p>
+            </div>
+        </div>
+    
+
+
+        <div class="producto" data-producto="colador">
+        <a href="#">
+            <figure>
+                <img src="../img/colador.jpeg" alt="colador">
+            </figure>
+        </a>
+            <div class="tarjeta-content">
+                <h3>Colador</h3>
+                <p class="disenio"> Colador de arcilla blanca, pintado a mano. 15cm de diámetro x 10cm de
+                profundidad. Para colar pastas, dejar secar frutas y verduras.
+                </p><br><br>
+                <span>Importe: $10000</span>
+                <span>Stock: <span id="stock-colador">5</span></span>
+                <button onclick="agregarAlCarrito('colador', 10000, 'colador')">Agregar</button>
+            </div>
+        </div>
+   
+   
+          <div class="producto" data-producto="mate">
+             <a href="#">
+                 <figure>
+                     <img src="../img/mate.jpeg" alt="mate">
+                 </figure>
+             </a>
+             <div class="tarjeta-content">
+                  <h3>Mate </h3>
+                  <p class="disenio"> Pequeño mate de arcilla roja, tratado con óxido y esmalte. Para los mates y
+                tererés de tus desayunos y meriendas.
+                    </p><br><br>
+                 <span>Importe: $4000</span>
+                 <span>Stock: <span id="stock-mate">4</span></span>
+                 <button onclick="agregarAlCarrito('mate', 4000, 'mate')">Agregar</button>
+            </div>
+         </div>
+    
+
+   
+          <div class="producto" data-producto="plato">
+               <a href="#">
+                   <figure>
+                       <img src="../img/plato.jpeg" alt="plato">
+                   </figure>
+                </a>
+                <div class="tarjeta-content">
+                   <h3>Plato</h3>
+                   <p class="disenio"> Plato torneado, pintado con pátinas y engobes, y guardas esgrafiadas. 20 cm de
+                      diametro. Apto para calentar en microondas tus comidas de todos los días.
+                     </p><br><br>
+                     <span>Importe: $8000</span>
+                     <span>Stock: <span id="stock-plato">40</span></span>
+                     <button onclick="agregarAlCarrito('plato', 8000, 'plato')">Agregar</button> 
+                </div>
+            </div>
+          
+   
+
+         <div class="producto" data-producto="taza">
+              <a href="#">
+                  <figure>
+                     <img src="../img/taza.jpeg" alt="taza">
+                 </figure>
+             </a>
+             <div class="tarjeta-content">
+                 <h3>Taza Anto</h3>
+                    <p class="disenio"> Taza de pasta blanca, pintada a mano con óxido de cobalto y terminación de
+                     esgrafiado. 9cm de diámetro y 10 cm de altura. Apta microondas.
+                  </p><br><br>
+                   <span>Importe: $9000</span>
+                   <span>Stock: <span id="stock-taza">50</span></span>
+                    <button onclick="agregarAlCarrito('taza', 9000, 'taza')">Agregar</button>    
+           </div>
+          </div>
+   
+
+
+        <!--  <div class="producto" data-producto="taza Viole">
+             <a href="#">
+                   <figure>
+                     <img src="../img/Taza Viole.jpeg" alt="TazaViole">
+                    </figure>
+                </a>
+               <div class="tarjeta-content">
+                   <h3>Taza Viole</h3>
+                   <p class="disenio"> Taza torneada con pasta enriquecida con óxido de manganeso, pintada a mano con
+                     engobes en tonos naranjas y ocres, de 9 cm de diámetro y 10 de alto. Apta microondas.
+                    </p><br><br>
+                    <span>Importe: $7000</span>
+                    <span>Stock: <span id="stock-tazaViole">3</span></span>
+                    <button onclick="agregarAlCarrito('Taza Viole', 7000, 'TazaViole')">Agregar</button>
+                </div>
+        </div>-->
+    </div>
+
+
+
+    <div id="carrito">
+        <h2>Carrito de Compras</h2>
+        <ul id="lista-carrito"></ul>
+        <p>Subtotal: $<span id="subtotal-carrito">0</span></p>
+        <p>Descuento: $<span id="descuento-carrito">0</span></p>
+        <p>IVA (21%): $<span id="iva-carrito">0</span></p>
+        <p><strong>Total: $<span id="total-carrito">0</span></strong></p>
+        <button onclick="vaciarCarrito()">Vaciar Carrito</button>
+        <button onclick="mostrarCheckout()">Checkout</button>
+    </div>
+
+    <!-- Modal de Checkout -->
+    <div id="checkout-modal">
+        <div class="checkout-content">
+            <h2>Finalizar Compra</h2>
+            <p>Subtotal: $<span id="modal-subtotal">0</span></p>
+            <p>Descuento: $<span id="modal-descuento">0</span></p>
+            <p>IVA: $<span id="modal-iva">0</span></p>
+            <p><strong>Total a Pagar: $<span id="modal-total">0</span></strong></p>
+            <button onclick="realizarCompra()">Confirmar Compra</button>
+            <button onclick="cerrarCheckout()">Cancelar</button>
+        </div>
+    </div>
+
+    <script src="../js/script.js"></script>
+
+
+</body>
+
+</html>
