@@ -131,7 +131,7 @@ footer nav {
         height: 50%;
         width: 70%;
         float: none;
-        margin: 70px;
+        margin: auto;
         padding: 0px;
     }
 
@@ -328,7 +328,7 @@ form {
 
 body {
     font-family: Arial, sans-serif;
-    max-width: 1000px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 20px;
     background-color: #f4f4f4;
